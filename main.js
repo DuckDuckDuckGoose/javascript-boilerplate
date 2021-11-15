@@ -1,5 +1,6 @@
 window.addEventListener(`load`, () => {
   console.log(`Page loaded`);
+    let inputs = {};
     let startTime;
     let exit = (value) => {
       let totalTime = Date.now() - startTime;
